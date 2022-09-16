@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+############################
+*.csv
+*.gz
+JMdict_e
+*.tsv

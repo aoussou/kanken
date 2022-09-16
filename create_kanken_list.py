@@ -32,9 +32,6 @@ kanji_series = jmdict["kanji"]
 all_words_list = list(kanji_series)
 
 hiragana = pd.read_csv("hiragana.csv",header=None)
-
-
-
 all_hiragana_list = list(hiragana.iloc[:, 0])
 
 all_valid_characters = all_hiragana_list + all_kanji_list
